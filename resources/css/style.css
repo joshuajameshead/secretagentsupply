@@ -1,0 +1,133 @@
+/* Universal CSS */
+html {
+  font-size: 18px;
+  background-color: white;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Company Header */
+.company {
+  background-color: black;
+  color: white;
+}
+
+.company .container {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 12px 0.5em;
+}
+
+.company img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1.5rem;
+}
+/* Main Banner */
+.main-banner {
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 25rem;
+  background-repeat: no-repeat;
+}
+
+.headline {
+  background-color: black;
+  padding: 2rem 3rem;
+  width: 20rem;
+  color: white;
+  position: relative;
+  top: 9rem;
+}
+
+.headline h4 {
+  color: white;
+  padding-bottom: 0.25rem;
+  size: 1rem;
+}
+
+.headline h1 {
+  font-size: 2rem;
+  color: white;
+}
+/* Navigation Bar */
+nav {
+  background-color: firebrick;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  list-style: none;
+  color: white;
+  font-weight: bold;
+}
+/* Products/Business Info */
+.products,
+.business-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0 0 0;
+}
+
+.product {
+  width: 30%;
+}
+
+.product-image {
+  border: 4px solid black;
+  padding: 2rem 0;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product img {
+  max-width: 8rem;
+}
+
+.description {
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.info .title {
+  padding: 1rem 2rem;
+  color: white;
+  background-color: black;
+  display: block;
+}
+/* Footer */
+footer {
+  background-color: black;
+  color: white;
+}
+
+footer .container {
+  margin-top: 4rem;
+  padding: 5rem 0;
+}
