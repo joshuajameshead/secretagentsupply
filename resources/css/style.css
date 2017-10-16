@@ -159,7 +159,7 @@ footer .container {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 470px) {
   .headline {
     padding: 1rem 2rem;
     top: 10rem;
