@@ -131,3 +131,73 @@ footer .container {
   margin-top: 4rem;
   padding: 5rem 0;
 }
+
+.mobile-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .headline {
+    padding: 1rem 2rem;
+    top: 10rem;
+    width: 100%;
+  }
+
+  .main-banner {
+    height: 15rem;
+  }
+
+  .headline h4 {
+    font-size: 0.77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .info {
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+
+  .products,
+  .business-info {
+    flex-wrap: wrap;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
